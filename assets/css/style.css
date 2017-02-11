@@ -1,0 +1,395 @@
+
+body{ 
+	
+	background-image: url("tree_bark.png");
+	color: #777777;
+	margin:0px;
+	height: 100%;
+
+
+}
+
+header{
+
+	background: #ffffff;
+	margin-bottom: 20px;
+	border-bottom:solid 5px #cccccc;	
+	width: 100%;
+	overflow: auto;
+	color:white;
+}
+
+
+h1{
+	background-color: #4aaaa5;
+	width: 20%;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	font-family:georgia;
+	margin:0 0 0 250px;
+}
+
+nav{ 
+	font-family: arial;
+	width: 35%;
+	padding: 10px;
+	float: right
+}
+
+
+a{
+	color: #777777;
+	font-size: 20px;
+	margin: 10px;
+}
+
+li{
+	display: inline-block;
+}
+
+section, #form, #portfolio{
+	clear: both;
+	overflow: auto;
+	border: solid 2px #cccccc;
+	background: #ffffff;
+	width: 40%;
+	padding: 10px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px
+}
+
+
+#bio{
+	float: left;
+	margin-right: 20px;
+}
+
+#info {
+	text-align: center;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+
+	
+.header{
+	border-bottom: 6px solid #cccccc;
+	font-size: 30px;
+	font-family: arial;
+	color: #4aaaa5;
+}
+
+aside{
+	width:24%;
+	border: solid 2px #cccccc;
+	background: #ffffff;
+	float: right;
+	margin-right: 150px;
+	margin-top: 50px;
+}
+
+.box{
+	padding:5px;
+	width: 90%;
+}
+
+#submit{
+	margin-top: 10px;
+	background-color:#4aaaa5;
+	color: white;
+	font-size: 14px;
+	width: 16%; 
+}
+
+.work {
+  position: relative;
+  overflow: auto;
+  float: left;
+  margin: 20px 10px 25px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: .8;
+}
+
+.work h6 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 82%;
+  color: #fff;
+  line-height: 30px;
+  font-size:19px;
+  font-weight: 300;
+  background: #4aaaa5;
+  border-bottom: 0;
+  text-align: center;
+
+}
+
+
+
+#footer{
+	position: fixed;
+	left:0px;
+	bottom: 0px;
+	height: 60px;
+	width: 100%;
+	
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	padding: 30px 0;
+	background:#666666;
+	border-top: 6px solid #4aaaa5;
+}
+
+/*media queries*/
+
+/* mobile size*/
+
+@media screen and (max-width:640px){
+	
+	header{
+		margin:0;
+	}
+
+	h1{
+		position: static;
+		margin:0;
+		width: 100%;
+	}
+
+	nav {
+		margin:0px;
+		width: 100%;
+
+	}
+	
+	section{
+		width: 90%;
+		margin:10px;
+	}
+
+	#bio {
+		width: 100%;
+	}
+	
+	h3{
+		margin:5px;
+	}	
+	
+	aside {
+		width: 100%;
+		overflow: auto;
+		margin:0;
+		position: relative;
+		margin-bottom:75px;
+	}
+
+	
+ 	.social,h2, h3,h4,h5,nav{
+		text-align: center;
+	}		
+
+
+  	h4{
+  		margin:0;
+  	}
+
+  	#form{
+  		margin:0;
+  		width: 95%
+
+  	}
+
+	h6{
+		width: 77%;
+	}
+
+	#portfolio {
+		width: 100%;
+		margin:0;
+
+	}	
+
+	.work{
+		width: 100%;
+	
+	}
+
+}
+
+/*tablet size*/
+
+@media screen and (min-width: 641px) and (max-width:768px){
+
+
+
+	header{
+		margin:0;
+	}
+
+	h1{
+		margin-left:36px;
+		width: 34%;
+		}
+
+	nav {
+		margin-right: :19px;
+		width: 50%;
+
+	}
+	
+	section{
+		width: 90%;
+		margin:25px;
+	}
+
+	#bio {
+		width: 50%;
+	}
+	
+	h3{
+		margin:5px;
+	}	
+	
+	
+
+	#connect{
+		width: 78%;
+		overflow: auto;
+		margin:0;
+		position: relative;
+		margin-bottom:75px;
+		margin-right: 82px;
+	}
+
+
+
+	aside {
+		width: 100%;
+		overflow: auto;
+		margin:0;
+		position: relative;
+		margin-bottom:75px;
+	}
+
+	
+	#portfolio{
+		width:75%;
+		margin-left: 80px;
+		margin-bottom: 10px;
+	}
+
+	h4{
+  		margin:0;
+  	}
+
+  	#form{
+  		margin: 0;
+    	width: 75%;
+    	margin-left: 85px;
+    	margin-bottom: 20px;
+    	margin-top: 10px;
+  	}
+
+}
+	
+	/*desktop screen*/
+
+@media screen and (min-width: 768px) and (max-width:980px){
+    
+	header{
+		margin:0;
+	}
+
+	h1{
+		
+		margin-left: 130px;
+    	width: 27%;
+		}
+
+	nav {
+		
+		width: 33%;
+	}
+	
+	section{
+		width: 47%;
+		margin:25px;
+	}
+
+	#bio {
+		width: 56%;
+	}
+	
+	#info{
+		width: 62%
+	}
+
+	h3{
+		margin:5px;
+	}	
+	
+	#connect{
+		width: 35%;
+		margin:0;
+		margin-top:51px;
+		margin-right: 52px;
+	}
+
+	aside {
+		width: 38%;
+		margin:0;
+		margin-top: 29px;
+    	margin-right: 31px;
+	}
+
+	
+	#portfolio{
+		width:25%;
+		margin-left: 100px;
+		margin-bottom: 10px;
+	}
+
+	h4{
+  		margin:0;
+  	}
+
+    #form{
+  		margin: 0;
+    	width:  45%;
+    	height: 69%;
+    	margin-left: 65px;
+    	margin-bottom: 20px;
+    	margin-top: 10px;
+    }
+
+
+	#footer{ 
+		position: relative;
+
+	}	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
